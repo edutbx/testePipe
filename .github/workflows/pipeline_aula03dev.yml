@@ -4,9 +4,7 @@ on:
   push:
     branches:
       - dev
-  pull_resquet:
-    branches:
-      - dev
+
 
 jobs:
 
