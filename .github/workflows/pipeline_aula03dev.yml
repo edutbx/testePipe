@@ -52,8 +52,7 @@ jobs:
     steps:
       - name: Simular testes
         run: echo "Teste simulado com sucesso"
-
-    steps: 
+ 
       - name: Baixar artefato
         uses: actions/download-artifact@v3
         with: 
