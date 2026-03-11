@@ -6,7 +6,7 @@ on:
       - dev
   pull_resquet:
     branches:
-      - main
+      - dev
 
 jobs:
 
