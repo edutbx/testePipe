@@ -41,4 +41,4 @@ jobs:
 
     steps:
       - name: Simular testes
-        run: echo "Teste simulado com sucesso"
+        run: echo "Teste simulado com sucesso!"
