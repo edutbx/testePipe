@@ -42,8 +42,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build
-    environment:
-      name: produção
+    environment: producao
 
     steps:
       - name: Simular Deploy
@@ -57,10 +56,10 @@ jobs:
       - name: Simular testes
         run: echo "Teste simulado com sucesso"
 
-      - name: Baixar artefato 
+      - name: Baixar artefato
         uses: actions/download-artifact@v4
         with:
           name: codigo-buildado
 
-      - name: extrair artefato
+      - name: Extrair artefato
         run: unzip pipeline-demo.zip
